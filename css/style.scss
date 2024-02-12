@@ -1,0 +1,34 @@
+a {
+    &:hover {
+        opacity: 50%;
+    }
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+.large-img_ly {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+#js__large-img {
+    transition: opacity 0.5s ease;
+}
+
+.thumbnail_ly {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.thumbnail_ly img {
+    min-width: 200px;
+}
+
